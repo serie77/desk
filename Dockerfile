@@ -5,6 +5,6 @@ COPY package.json package-lock.json ./
 RUN npm ci --omit=dev
 COPY . .
 ENV NODE_ENV=production DATA_DIR=/data PORT=3000
-VOLUME ["/data"]
+# Persistent storage: mount a Railway Volume at /data (no Docker VOLUME here; Railway rejects it).
 EXPOSE 3000
 CMD ["npm", "start"]
