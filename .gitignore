@@ -1,0 +1,19 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# state
+data/
+data-*/
+*.db
+*.db-wal
+*.db-shm
+
+# build and tooling
+node_modules/
+dist/
+*.log
+.DS_Store
+Thumbs.db
