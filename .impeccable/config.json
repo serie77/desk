@@ -1,0 +1,62 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "primary font: fraunces",
+        "createdAt": "2026-09-23T22:34:33.053Z",
+        "reason": "brief pins Fraunces/Instrument Sans/Geist Mono; chosen this session for the page's dusk editorial voice"
+      },
+      {
+        "rule": "overused-font",
+        "value": "primary font: instrument sans",
+        "createdAt": "2026-09-23T22:34:33.221Z",
+        "reason": "brief pins Fraunces/Instrument Sans/Geist Mono"
+      },
+      {
+        "rule": "overused-font",
+        "value": "primary font: geist mono",
+        "createdAt": "2026-09-23T22:34:33.384Z",
+        "reason": "brief pins Fraunces/Instrument Sans/Geist Mono; mono is for code, data and the tape"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "public/index.html"
+        ],
+        "createdAt": "2026-09-23T22:34:52.082Z",
+        "reason": "panels are list containers; rows and headers carry their own 18px insets and full-bleed dividers are the design"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "public/index.html"
+        ],
+        "createdAt": "2026-09-23T22:34:52.279Z",
+        "reason": "light theme of a dusk/amber world; warm off-white is the committed palette, dark is the primary scene"
+      },
+      {
+        "rule": "overused-font",
+        "value": "fraunces",
+        "createdAt": "2026-09-23T22:37:50.755Z",
+        "reason": "user saw the site set in these faces and said 'i like the site'; Fraunces is the editorial display voice of the dusk world"
+      },
+      {
+        "rule": "overused-font",
+        "value": "instrument sans",
+        "createdAt": "2026-09-23T22:37:50.947Z",
+        "reason": "user saw the site set in these faces and said 'i like the site'; body face paired with Fraunces"
+      },
+      {
+        "rule": "overused-font",
+        "value": "geist mono",
+        "createdAt": "2026-09-23T22:37:51.196Z",
+        "reason": "user saw the site set in these faces and said 'i like the site'; mono is for code, data and the tape, the 'codey vibe' the user asked to keep"
+      }
+    ]
+  }
+}
